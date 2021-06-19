@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def testException(request):
+    //this will throw an exception
+    test = something
+    return HttpResponse("Success")
